@@ -1,0 +1,27 @@
+# OpenClaw 部署配置
+# 将此 agent 配置合并到 ~/.openclaw/openclaw.json 的 agents.list 中
+
+{
+  "id": "wholesale",
+  "name": "批发助手",
+  "workspace": "/home/openclaw/workspace-wholesale",
+  "model": "deepseek/deepseek-v4-pro"
+}
+
+# 飞书渠道绑定（在 openclaw.json → bindings 中添加）：
+# {
+#   "type": "route",
+#   "agentId": "wholesale",
+#   "match": {
+#     "channel": "feishu",
+#     "accountId": "你的飞书App ID"
+#   }
+# }
+
+# 飞书账号（在 openclaw.json → channels.feishu.accounts 中添加）：
+# "你的飞书App ID": {
+#   "appId": "你的飞书App ID",
+#   "appSecret": "你的飞书App Secret",
+#   "enabled": true,
+#   "name": "批发助手"
+# }
