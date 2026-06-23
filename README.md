@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>进口酒水批发商的飞书智能管家</b><br>
-  <sub>一句话查利润 · 自动补货预警 · 供应商比价 · 库存健康扫描</sub>
+  <sub>出货入库 · 利润秒算 · 补货预警 · 供应商比价 · 库存健康</sub>
 </p>
 
 <p align="center">
@@ -122,7 +122,7 @@ wholesale-ai/
 ├── SOUL.md                ← Agent 人设
 ├── install.sh             ← 一键安装脚本
 ├── scripts/
-│   └── wholesale_query.py ← 四大模块查询引擎
+│   └── wholesale_query.py ← 六大模块查询引擎
 ├── data/
 │   └── schema.sql         ← 数据库建表 + 示例数据
 └── deploy/
